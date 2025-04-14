@@ -12,7 +12,7 @@ resource "google_compute_instance" "myapp1" {
   # Install Webserver
   metadata_startup_script = file("${path.module}/app1-webserver-install.sh")
   network_interface {
-    subnetwork = google_compute_subnetwork.mysubnet.id   
+    subnetwork = google_compute_subnetwork.inisubnet.id   
     access_config {
       # Include this section to give the VM an external IP address
     }

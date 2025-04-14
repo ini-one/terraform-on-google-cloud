@@ -16,7 +16,7 @@ resource "google_compute_firewall" "fw_ssh" {
 resource "google_compute_firewall" "fw_http" {
   name = "fwrule-allow-http80"
   allow {
-    ports    = ["80"]
+    ports    = ["80","8080"]
     protocol = "tcp"
   }
   direction     = "INGRESS"

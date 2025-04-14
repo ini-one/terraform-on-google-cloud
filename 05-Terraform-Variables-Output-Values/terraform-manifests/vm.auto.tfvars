@@ -1,1 +1,1 @@
-# machine_type  = "e2-medium"
+machine_type  = "e2-medium"
