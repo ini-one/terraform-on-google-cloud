@@ -1,0 +1,6 @@
+project_id       = "lunar-inn-455023-u1"
+region           = "us-central1"
+zone             = "us-central1-a"
+ssh_user         = "terraform"
+public_key_path  = "C:/Users/Admin/.ssh/gcp_terraform_key.pub"
+private_key_path = "C:/Users/Admin/.ssh/gcp_terraform_key"

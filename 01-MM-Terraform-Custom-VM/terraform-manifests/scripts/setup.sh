@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eux
+set -e
 
 # Log all output to a file for debugging
 #exec > /var/log/startup-script.log 2>&1
