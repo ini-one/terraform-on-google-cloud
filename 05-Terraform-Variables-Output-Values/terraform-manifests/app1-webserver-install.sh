@@ -1,4 +1,6 @@
 #!/bin/bash
+set -x
+sudo apt-get update --fix-missing
 sudo apt install -y telnet
 sudo apt install -y nginx
 sudo systemctl enable nginx
